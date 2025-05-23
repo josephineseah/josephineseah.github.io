@@ -34,6 +34,15 @@ body {
   body {
     margin: 10px;
   }
+
+  nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        width: 100%;
+    }  
 }
 
 header {
@@ -54,7 +63,11 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;         /* allows wrapping on smaller screens */
+    gap: 1rem;               /* reduced gap for better mobile spacing */
+    justify-content: center; /* centers items nicely */
+    padding: 0;
+    margin: 0;
 }
 
 nav a {
@@ -63,6 +76,8 @@ nav a {
     padding: 0.5rem 1rem;
     border-radius: 4px;
     transition: background-color 0.3s;
+    display: block;           /* ensures the padding is respected */
+    text-align: center;
 }
 
 nav a:hover {
