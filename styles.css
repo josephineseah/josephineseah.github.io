@@ -102,3 +102,8 @@ h1 {
 p {
     margin-bottom: 1rem;
 } 
+
+.spaced-header {
+  margin-top: 3rem; /* adjust spacing as needed */
+}
+
