@@ -1,0 +1,31 @@
+theme = "PaperMod"
+baseURL = "https://josephineseah.github.io/my-ux-portfolio/"
+title = "Josephine Seah"
+
+[params]
+  disableSpecial1stPost = true
+  mainSections = []
+  hideMeta = true
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jshs2@cam.ac.uk"
+ 
+[menu]
+[[menu.main]]
+    identifier = "home"
+    name = "About Me"
+    url = "/"
+    weight = 5
+
+[[menu.main]]
+  identifier = "case-studies"
+  name = "Research Portfolio"
+  url = "/case-studies/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "email"
+  name = "Email"
+  url = "mailto:josephineseah.sh@gmail.com"
+  weight = 15

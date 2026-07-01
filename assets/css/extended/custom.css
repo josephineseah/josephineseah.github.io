@@ -1,0 +1,14 @@
+body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.post-content {
+  font-size: 0.99rem;
+}
+
+#menu a[href^="mailto"] {
+  font-size: 1rem;
+}

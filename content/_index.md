@@ -1,0 +1,7 @@
+# Hi, I'm Jo. 
+
+I recently completed my PhD in Sociology at the University of Cambridge, where I studied how people actually live with smart city technologies. Smart city projects are usually designed around ideals of optimization and efficiency, but my research focused on everyday interruptions, from glitches to workarounds and tinkering, that upend these very ideals. 
+
+Focusing on everyday interruptions allowed me to identify key tensions within smart cities. Glitches often revealed design assumptions baked into ideals of digital inclusion that in practice led to exclusionary urban participation. At the same time, workarounds and tinkering spoke to how residents encountered and actually used the city's ever-changing digital infrastructure; in the process, making these systems--from wearables to mobile apps--work for them. Everyday interruptions point to a consistent tension at the heart of digital urbanism between how cities are designed to be used and how people inhabit them; calling attention to what that gap means for inclusion, exclusion, and participation in the city. 
+
+I am currently a Research Affiliate at the [University of Cambridge](https://www.sociology.cam.ac.uk/people/josephine-seah-2026) and at the Centre for Digital Law at [Singapore Management University](https://cdl.smu.edu.sg/people/josephine-seah). 
