@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/my-ux-portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=my-ux-portfolio/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Digital Health in the Smart City | Josephine Seah</title>
+<meta name="keywords" content="">
+<meta name="description" content="What happens when users do not engage with digital health programs as designed, and what can we learn from these moments of friction?">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/my-ux-portfolio/case-studies/digital-health-smart-city/">
+<link crossorigin="anonymous" href="/my-ux-portfolio/assets/css/stylesheet.61a3f7ebfbf481e8dd0bf69745d028a02f27002a58d3a477d2ab31b9c1cc3570.css" integrity="sha256-YaP36/v0gejdC/aXRdAooC8nACpY06R30qsxucHMNXA=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/my-ux-portfolio/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/my-ux-portfolio/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/my-ux-portfolio/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/my-ux-portfolio/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/my-ux-portfolio/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/my-ux-portfolio/case-studies/digital-health-smart-city/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/my-ux-portfolio/" accesskey="h" title="Josephine Seah (Alt + H)">Josephine Seah</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/my-ux-portfolio/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/my-ux-portfolio/case-studies/" title="Research Portfolio">
+                    <span>Research Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:josephineseah.sh@gmail.com" title="Email">
+                    <span>Email</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Digital Health in the Smart City
+    </h1>
+  </header> 
+  <div class="post-content md-content"><h1 id="overview-and-research-questions">Overview and Research Questions<a hidden class="anchor" aria-hidden="true" href="#overview-and-research-questions">#</a></h1>
+<p>This project examined the National Steps Challenge (NSC), a nationwide digital health initiative in Singapore delivered via the Healthy 365 mobile app. The programme incentivizes physical activity through wearables, app-based tracking, and rewards.</p>
+<p>The initiative sits at the intersection of public health, behavioural incentives, and smart city infrastructure.</p>
+<p>Large-scale digital health platforms often assume that users have stable daily routines, continuous device functionality, alignment between health goals and incentive structures, and willing participation in user tracking. Nonetheless, real-world engagement is often messy and contingent. In light of this, this project asked:</p>
+<p>What happens when users do not engage with digital health programs as designed — and what can these moments of friction reveal?</p>
+<h1 id="methodology-and-timeline">Methodology and Timeline<a hidden class="anchor" aria-hidden="true" href="#methodology-and-timeline">#</a></h1>
+<ul>
+<li>Given that the goal was to understand lived interaction with the NSC and not measure adoption, I chose a qualitative approach for this project.</li>
+<li>I conducted semi-structured in-depth interviews with 51 Singapore residents who were either previous or active participants in the NSC
+<ul>
+<li>Interviews were held between October 2022 and June 2023</li>
+<li>The interviews lasted between 30 and 90 minutes</li>
+<li>Thematic coding using grounded theory, supplemented by reflexive memo-writing (using Atlas.ti)</li>
+</ul>
+</li>
+</ul>
+<h1 id="findings">Findings<a hidden class="anchor" aria-hidden="true" href="#findings">#</a></h1>
+<h2 id="1-users-optimize-for-the-incentive-structure-rather-than-health-goals">1. Users optimize for the incentive structure rather than health goals.<a hidden class="anchor" aria-hidden="true" href="#1-users-optimize-for-the-incentive-structure-rather-than-health-goals">#</a></h2>
+<p>When a program rewards step counts, users optimize for step counts. This is an intuitive finding, but it has significant implications for how the NSC functions in practice. The study found that participants engaged in a range of tactical adaptations: strategic gaming of their step counts, device sharing within households, running multiple trackers simultaneously, and coordinating participation to maximize reward payouts. None of these behaviours are irrational. They are, rather, highly rational responses to the NSC’s reward structure.</p>
+<p>Consider, for instance, one participant’s experience of asking her sister to reach her step count for her:</p>
+<blockquote>
+<p>Last night, I wanted to hit ten thousand steps, but I didn’t manage to do it by the time I was going to sleep. So, I asked my sister to help me because she was going out in the evening. I think I was at about six thousand plus, but I wanted to hit the 10k [to get my points], right? But I also told her “By the way, can you put it back on when I’m sleeping? I want to use it to track my sleep [as well].”</p>
+</blockquote>
+<p><strong>Implication</strong>: Incentive systems always produce second-order optimization behaviours, where the metric being measured becomes the goal, rather than the underlying outcome the metric was meant to proxy (i.e., Goodhart’s Law). The data generated under these conditions reflect how users engage with a reward system and rather little about their physical health. For teams using behavioural data to make decisions — e.g., health policies — this distinction needs to be taken into account as a structural feature of how incentivized self-tracking works (or doesn’t).</p>
+<h2 id="2-bad-data-can-be-a-good-signal">2. &ldquo;Bad Data&rdquo; can be a good signal.<a hidden class="anchor" aria-hidden="true" href="#2-bad-data-can-be-a-good-signal">#</a></h2>
+<p>Data quality frameworks may treat device sharing, familial pooling, and irregular tracking patterns as noise to be filtered out. My study suggests a different reading. Rather than interpreting these actions as failures of individual compliance, we can see such practices as speaking to the <strong>social dynamics of shared technologies</strong>. When a single wearable circulates among family members to maximize collective rewards, as the quote below illustrates, rather than to negate such data we can see it as a record of participation at the level of the household, instances of (economic) coordination, and collective negotiation of system rules.</p>
+<blockquote>
+<p>“Sometimes, if my mom needs to clock her steps, I’ll just take her tracker and go for a run. That will close it up to her goal for her to get her rewards.”</p>
+</blockquote>
+<p>Separately, another participant told me of how she was responsible for managing her parents NSC accounts (i.e., their Healthy 365 app) and would use the accumulated Healthpoints to collectively offset her household expenses.</p>
+<p><strong>Implication</strong>: Treating such patterns as errors or negating this data risks ignoring how some platforms actually become embedded in everyday life. The practices above suggest that an <strong>oft-neglected unit of participation lies in the household</strong>: a site of shared devices, pooled rewards, and collective management. This has consequences for how product and data teams should think about user modelling, segmentation, and the design of participation structures. Frameworks that are built on the lone individual-user assumption can misinterpret collective participation as noise. In turn, reframing the unit of analysis from the individual to the household can surface a more accurate picture of how these technologies operate in everyday life.</p>
+<h2 id="3-friction-can-sustain-systems-over-time">3. Friction can sustain systems over time.<a hidden class="anchor" aria-hidden="true" href="#3-friction-can-sustain-systems-over-time">#</a></h2>
+<p>Perhaps the most counterintuitive finding of this research is that the NSC remained popular and durable despite it’s well-known hardware and software issues. Participants reported experiencing, over the course of their years of engagement with the challenge, everything from broken straps from issued health trackers to faulty charging mechanisms and unresponsive syncing troubles. All through these frictions, participants would leave <em>and return</em> to the challenge, drawn back in by its incentives and by the ease with which they could develop workarounds to resolve these issues.</p>
+<p>As seen above, users did not simply comply with the system as designed. They redirected its incentives towards economic ends, integrated it into family and social routines, and repurposed its reward structures for goals the platform never intended, ultimately making it useful in ways that departed from its stated mission.</p>
+<p><strong>Implication</strong>: This suggests that long-term platform durability may depend on leaving room for user reinterpretation. Rigid systems that penalize deviation and enforce narrow participation models can achieve short-term data quality at the expense of long-term engagement. Systems that are designed to accommodate flexible participation, on the other hand, admittedly at the expense of behavioural legibility, may prove to be more resilient precisely because users can adapt them to their own contexts and needs. For platform designers and policy teams, this reframes the relationship between friction and failure. Rather than a design flaw to be engineered out, friction can sometimes be a mechanism through which users make a system their own.</p>
+<h1 id="so-what">So what?<a hidden class="anchor" aria-hidden="true" href="#so-what">#</a></h1>
+<p>The frictions above do not prescribe a single fix. Instead, I suggest that they unsettle assumptions that tend to be widespread in the design and evaluation of behavioural platforms; and that they point to a different set of questions that practitioners could ask instead.</p>
+<ol>
+<li><strong>Audit incentive structures along with your data</strong>. If users are optimizing for rewards rather than a stated mission, rather than asking “how can we clean this data?”, perhaps a more productive question could be, “what is our system actually rewarding?” Product and data teams working with incentive-based platforms should routinely examine the gap between intended and actual optimization behaviour. Where that gap is large, behavioural data may be measuring incentive strategies rather than the outcome it was designed to proxy. Closing that gap begins with honest incentive design.</li>
+<li><strong>Treat data anomalies as diagnostic</strong>. Patterns that fail data quality thresholds — irregular activity, shared device signatures, coordinated participation — share often read as noise. This study suggests that they can be instead read as signals of how a platform is actually embedded in users’ lives. Before filtering them out then, we might ask what the anomaly reveals about structural mismatches between system assumptions and real-world conditions. Building this diagnostic step into data governance workflows can surface insights that clean data along cannot.</li>
+<li><strong>Design for user adaptation</strong>. Platforms that accommodate flexible participation may prove more durable than those that enforce narrow usage. If users are actively reshaping a system to fit their own contexts and returning to it repeatedly, that indicates a form of system resiliency worth understanding and enabling. One implication of this is to resist the reflex to close off workarounds and adaptations and instead ask what they reveal about unmet needs or misaligned assumptions.</li>
+</ol>
+<h1 id="reflections">Reflections<a hidden class="anchor" aria-hidden="true" href="#reflections">#</a></h1>
+<p>I thoroughly enjoyed doing this project, particularly learning of the different ways that users found to game their step counts.</p>
+<p>That being said, I reached data saturation in the mid-thirties (out of 51 interviews) but continued recruiting given the strong response to my call for participants. In retrospect, the additional interviews added nuance at the margins rather than substantively changing my findings.</p>
+<p>The more significant lesson was methodological: because I had not yet begun transcribing or coding when I was still in the field, I only recognized saturation in hindsight. Despite having read widely on fieldwork best practices, this was my first sustained experience of doctoral fieldwork, and I had not yet developed the instinct to run data collection and analysis concurrently. Had I done so, I would have identified saturation earlier and stopped sooner. The practical cost of not doing so was real — the volume of back-to-back interviews was exhausting, and I reached the end of my fieldwork having burned myself out, falling ill towards the end.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/my-ux-portfolio/">Josephine Seah</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
