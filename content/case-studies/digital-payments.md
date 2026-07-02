@@ -1,4 +1,6 @@
 +++
+ShowToc = true
+TocOpen = true
 date = '2026-03-16'
 draft = false
 title = 'Digital Payments in the Speedy Smart City'
