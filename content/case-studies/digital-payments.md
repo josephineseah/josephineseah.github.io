@@ -8,7 +8,7 @@ summary = 'What user expectations are set up by digital/cashless payment systems
 # Overview and Research Questions 
 Digital payments have made steady progress in recent years and we are now accustomed to non-cash modes of payments: from NFC-enabled transactions to scanning QR codes to the increasing normalization of cryptocurrencies. These new infrastructures of payments have thus changed how city residents manage their expectations during everyday transactions: whether at the grocery store or in restaurants, people are increasingly reaching for their phones or smartwatches rather than cash. The expectation, in other words, is for transactions to be efficient, convenient, and fast. 
 
-![cashless](/my-ux-portfolio/images/digital-payment.jpg)
+![cashless](/images/digital-payment.jpg)
 *While not the norm, it is increasingly common to find stores like the ones above that only accept cashless payments. Photo by author, Singapore, January 2025.* 
 
 Within this changing landscape of payments, how are urban residents modelled? Which groups are excluded from these infrastructures, and with that consequences? This project focuses on digital payment adoption in Singapore through a lens of inclusion and exclusion. In it, I focus on how residents are using the city's expanding payments infrastructure and the costs--socially, culturally, and financially--of doing so. 

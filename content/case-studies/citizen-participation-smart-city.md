@@ -8,7 +8,7 @@ summary = 'Designed for all and built for some: Civic engagement and exclusion a
 # Overview and Research Questions
 The Smart Nation Office in Singapore launched the Smart Nation Builder, a mobile exhibition designed to gather resident feedback on government digital services. On its face, the initiative appeared to promote inclusive civic participation: on deployment days, the Builder would be driven out to different spots around the island, thus bringing its feedback for infrastructure *to* city residents. 
 
-![builder](/my-ux-portfolio/images/builder.jpg)
+![builder](/images/builder.jpg)
 *The Smart Nation Builder, an interactive mobile exhibition meant to share information about Singapore’s smart city projects and to gather citizen feedback on local digital initiatives. Photo by me, Singapore, 2023.* 
 
 A key theme within the smart city literature has been citizen engagement and citizen participation.[^1] What role does the citizen play in the making of the smart city? How do their voices and perspective guide ongoing projects -- if at all? Given these questions, I was interested in the Builder as a site of citizen engagement: *who* was actually giving feedback? Did the Builder's design foster meaningful encounters with residents and thus transform their feedback into decisions on civic tech? 
