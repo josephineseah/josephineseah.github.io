@@ -29,3 +29,9 @@ title = "Josephine Seah"
   name = "Email"
   url = "mailto:josephineseah.sh@gmail.com"
   weight = 15
+
+# [[menu.main]]
+#  identifier = "news"
+#  name = "News"
+#  url = "/news/"
+#  weight = 7

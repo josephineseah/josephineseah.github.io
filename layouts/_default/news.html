@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="post-content">
+  <h1>{{ .Title }}</h1>
+  <ul class="news-list">
+    {{ range site.Data.news }}
+    <li><span class="news-date">{{ .date }}</span> {{ .text | markdownify }}</li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

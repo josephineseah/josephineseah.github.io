@@ -12,10 +12,37 @@ body {
   font-size: 0.99rem;
 }
 
+.post-content p + p {
+  margin-top: 1.2em;
+}
+
+.post-content a {
+  text-decoration: underline;
+}
+
 #menu a[href^="mailto"] {
   font-size: 1rem;
 }
 
 .toc {
   font-size: 0.85rem;
+}
+
+.news-list {
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0 1em;
+  margin-bottom: 0.6em;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  margin-right: 0.8em;
 }
