@@ -1,4 +1,6 @@
 +++
+ShowToc = true
+TocOpen = true
 date = '2026-03-15'
 draft = false
 title = 'Citizen Participation in the Smart City'

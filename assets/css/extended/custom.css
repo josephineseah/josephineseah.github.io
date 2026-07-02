@@ -15,3 +15,7 @@ body {
 #menu a[href^="mailto"] {
   font-size: 1rem;
 }
+
+.toc {
+  font-size: 0.85rem;
+}
