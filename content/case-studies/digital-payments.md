@@ -63,7 +63,7 @@ These expressions are not ones of technophobia or nostalgia; rather they are obs
 
 **Implications**: Digital payments built around efficiency and convenience rest on an implicit assumption: that what users want from an interaction is to complete it quickly. This study shows that not every transaction is a transfer of value. For some exchanges, such as gifting money at weddings or handing a loved one a red packet during Lunar New Year, the act of gifting carries meaning that does not translate easily into the move to frictionless transactions. This is the difference between optimizing for completion and accounting for what an exchange actually means to the people completing it.  
 
-## 3. Digital inclusion needs to accunt for who bears the cost of breakdown. 
+## 3. Digital inclusion needs to account for who bears the cost of breakdown. 
 
 By many measures, Singapore’s shift towards cashless payments has been a success. Across interviews, contactless payments had become unremarkable for most residents: clearly woven into the fabric of daily life without most friction or thought. The “last mile” problem that once loomed large in digital payment adoption has, for many, disappeared. 
 
