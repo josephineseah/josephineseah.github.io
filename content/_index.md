@@ -8,4 +8,4 @@ You can find out more about my research [here](/case-studies/) and view my resum
 
 I am currently a Research Affiliate at the [University of Cambridge](https://www.sociology.cam.ac.uk/people/josephine-seah-2026) and at the Centre for Digital Law at [Singapore Management University](https://cdl.smu.edu.sg/people/josephine-seah). 
 
-As of June 2026, I've also just moved to the Bay Area! If you want to say hi, talk about smart cities, life in Cambridge/Singapore, qualitative research, or fantasy and sci-fi books, feel free to reach out! 
+As of June 2026, I've also just moved to the Bay Area! If you want to say hi, talk about smart cities, AI and society, life in Cambridge/Singapore, qualitative research, or fantasy and sci-fi books, feel free to reach out! 
