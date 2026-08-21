@@ -31,9 +31,9 @@ title = "Josephine Seah"
   weight = 15
 
 [[menu.main]]
-  identifier = "resume"
-  name = "Resume"
-  url = "https://docs.google.com/document/d/15b0FXRpojonTFm6ZWoLMdIHVIBvGbHf9jgZK04lAhHo/edit?tab=t.0"
+  identifier = "linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/josephinessh/"
   weight = 12
 
 # [[menu.main]]
