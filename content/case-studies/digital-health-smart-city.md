@@ -3,6 +3,11 @@ date = '2026-03-14'
 draft = true
 title = 'Digital Health in the Smart City'
 summary = 'What happens when users do not engage with digital health programs as designed, and what can we learn from these moments of friction?' 
+
+[cover]
+image = "/images/payments-free.jpeg"
+relative = false 
+hiddenInSingle = true
 +++
 
 # Overview and Research Questions 

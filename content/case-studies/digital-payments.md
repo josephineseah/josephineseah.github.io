@@ -5,6 +5,11 @@ date = '2026-03-16'
 draft = false
 title = 'Digital Payments in the Speedy Smart City'
 summary = 'What user expectations are set up by digital/cashless payment systems, and what happens when users fall outside that mold?' 
+
+[cover]
+image = "/images/payments-free.jpeg"
+relative = false 
+hiddenInSingle = true
 +++
 
 # Overview and Research Questions 

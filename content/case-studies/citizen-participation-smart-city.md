@@ -5,6 +5,11 @@ date = '2026-03-15'
 draft = false
 title = 'Citizen Participation in the Smart City'
 summary = 'Designed for all and built for some: Civic engagement and exclusion at the Smart Nation Builder.' 
+
+[cover]
+image = "/images/participation-free.jpg"
+relative = false 
+hiddenInSingle = true
 +++
 
 # Overview and Research Questions
