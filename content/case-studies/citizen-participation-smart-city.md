@@ -1,6 +1,6 @@
 +++
 ShowToc = true
-TocOpen = true
+TocOpen = false
 date = '2026-03-15'
 draft = false
 title = 'Citizen Participation in the Smart City'
@@ -11,6 +11,13 @@ image = "/images/participation-free.jpg"
 relative = false 
 hiddenInSingle = true
 +++
+# Executive Summary
+- The Smart Nation Builder was a mobile exhibition run by Singapore’s Smart Nation Office that travelled to residential neighborhoods to gather feedback on digital government services. 
+- Through participant observation conducted between September 2022 and June 2023, I examined how the exhibition structured civic participation, who it imagined as its participants, and how its design shaped the quality of feedback it solicits. 
+- I found that the Builder’s mobility brought diverse audiences. Yet its design – encouraging login via a digital ID, touchscreens, and English-only content – assumed a digitally literate, English-speaking user. For these visitors, civic participation was seamless. 
+- However, for elderly and non-English-speaking residents, their engagement with the Builder was marked by friction and dependence on staff members, who translated and mediated their feedback. This raises practical and methodological questions about how design influences civic participation.  
+- I recommend (1) designing for the project’s actual range of users, including a more visible manual registration and localized content; (2) creating a structured channel for frontline staff feedback to reach designers; and (3) matching the research format to the goal, complementing reach with in-person methods like focus groups and interviews. 
+
 
 # Overview and Research Questions
 The Smart Nation Office in Singapore launched the Smart Nation Builder, a mobile exhibition designed to gather resident feedback on government digital services. On its face, the initiative appeared to promote inclusive civic participation: on deployment days, the Builder would be driven out to different spots around the island, thus bringing its feedback for infrastructure *to* city residents. 
@@ -66,10 +73,16 @@ Beyond the question of whether such feedback *counts*, then, a more important fi
 
 One immediate recommendation shared by me (and fellow guides) was for the Builder’s content to be translated into at least three additional languages. This would then include the other official languages of the city-state (Malay, Tamil, and Mandarin). Presenting content in residents’ mother tongues would have signalled a more welcoming engagement environment, and would have reduced friction for both visitors and the staff tasked with mediating their experience. 
 
-# Next steps for designing civic engagement
-Policy recommendations for civic engagement: 
-1. **Incorporate frontline staff perspectives into design feedback loops**. The experiences of Builder staff, both volunteers and part-time workers, contain important diagnostic insights about where the initiative succeeded and where it fell short. Bringing these perspectives into contact with the developers responsible for the Builder’s design could surface pain points earlier. In my observations, this feedback loop was largely absent: the gap between operational staff and developers was significant, with the relationship primarily mediated through the contracting agency. 
-2. **Reconsider the role of digital technology in civic engagement projects**. The Builder’s reliance on digital interfaces raises the question of when digital tools are actually the right choice. For more targeted feedback on specific initiatives, in-person formats such as focus groups may yield richer, more actionable input, particularly from populations less comfortable with digital interfaces.
+# Recommendations 
+## 1. Design for the actual range of users. 
+The Builder’s registration and interface design assumed a digitally literate, English-speaking visitor. A more inclusive design would make manual registration as visible and frictionless as digital ID authentication, and would localize content for the Builder’s audience from the outset. 
+
+## 2. Build a structured channel for frontline staff feedback. 
+The Builder’s staff members absorbed the cost of design gaps in real time, translating and guiding visitors who couldn’t navigate the space by themselves. Yet there was no formal channel bringing their observations and experiences to the Builder’s developers. An iterative feedback loop between frontline staff and the Builder’s design team, which could take the form of an online survey or an in-person debrief, could surface friction points. 
+
+## 3. Match the research format to the goal. 
+The Builder’s format worked well for broad reach and lightweight feedback collection. At the same time, for populations less comfortable with digital interfaces, or for feedback requiring more depth and nuance, in-person formats like focus groups or interviews would likely yield richer and more actionable input.  
+ 
 
 # Reflections 
 Designing for broad participation often defaults to designing for a “typical” user. In this instance, the Builder illustrates some of the costs of that default. As with my reflections on digital payments, elderly users are not edge cases: their experiences reveal important truths about how digital change is received more broadly, and should inform design from the outset rather than something addressed as an afterthought. 

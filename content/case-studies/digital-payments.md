@@ -1,6 +1,6 @@
 +++
 ShowToc = true
-TocOpen = true
+TocOpen = false
 date = '2026-03-16'
 draft = false
 title = 'Digital Payments in the Speedy Smart City'
@@ -11,6 +11,15 @@ image = "/images/payments-free.jpeg"
 relative = false 
 hiddenInSingle = true
 +++
+
+# Executive Summary
+- Singapore’s rapid adoption of digital payments has made efficiency, speed, and convenience the default expectation of everyday transactions. This project examines who these systems assume as users, who gets left out, and at what cost. 
+- Between January and February 2025, I conducted 29 semi-structured interviews with Singapore residents aged 26 to 80. 
+- Findings: 
+    - Digital payments produce a mobile, always-in user who reorganizes their daily routines around transactional convenience. These services set the tempo for urban engagement in the city, creating a standard rhythm of engagement in the city that values efficiency, speed and convenience.
+    - At the same time, efficiency is not always valued by users. Exchanges like wedding gifts or red packets during Lunar New Year convey social meaning that frictionless systems that prioritize speed and convenience can erase. 
+    - When digital payment systems fail through scams or fraud, the cost falls unevenly among the population. For elderly users, a single incident can undo years of adoption and can lead to withdrawal from digital and urban engagement. 
+- Recommendations: (1) Payment providers should design for social meaning, not just complete transactions: evaluating products on more than speed, co-designing gifting features with users and preserving deliberate friction where gifting is the point; and (2) financial institutions and agencies that handle scam cases should invest in prevention and recovery: examples of this include compassionate response protocols for frontline staff, follow-up check-ins with those affected, and community programs that rebuild digital confidence so that scams do not lead to public distrust of digital payment services. 
 
 # Overview and Research Questions 
 Digital payment technology has advanced steady in recent years and we are now accustomed to non-cash modes of payment: from NFC-enabled transactions to scanning QR codes to the increasing normalization of cryptocurrencies. These new infrastructures of payments have thus changed city residents' expectations of everyday transactions: whether at the grocery store or in restaurants, people are increasingly reaching for their phones or smartwatches rather than cash. The expectation, in other words, is for transactions to be efficient, convenient, and fast. 
@@ -86,25 +95,17 @@ Below, she continues, drawing a clear distinction between financial and emotiona
 
 **Implication**: Digital inclusion is often measured at the point of adoption and level of competence: did the user gain access, did they start using the system? How *well* are they using the system? But this study points to a different and arguably neglected metric: what happens when a system fails, and who bears the cost of that failure? In the case of digital payments, for elderly users already navigating digital life with less confidence, a single scam incident can be enough to undo years of adoption. The quote above illustrates this at a logistical level and at an emotional one as well: the loss of confidence, the shame, and the withdrawal from participation. Digital inclusion, as such, should not end at access and competence, but also needs to account for what happens to people when the systems that they come to rely on fail them.  
 
-# So what? 
+# Recommendations
 
-## 1. Efficiency is not always what users want from a transaction. 
+## 1. Design for social meaning, not just complete transactions. 
+Digital payment services typically prioritize speed, convenience, and efficiency. Yet for exchanges like red packets during Lunar New Year or wedding gifts, the act of giving is the point. Rather than reskinning a standard transfer, payment providers could co-design gifting features with users to address what matters in these modes of gifting (shared presence and a physical handover). This could also mean designing relational elements into these systems, such as incorporating additions like voice notes or video messages that preserve social connection between gifter and recipient. 
 
-The red packet instance above is just one example of a broader phenomenon, indicating that there are categories of exchange where meaning is inseparable from the act itself, and where the logic of efficiency works against what users value. Gifting money during Lunar New Year or at weddings is a visible example, but unlikely to be the only one. Other festive transfers, religious donations, informal lending practices, and intergenerational money flows can all similarly carry social and cultural weight that frictionless digital systems are arguably not equipped to hold.
-
-This study points to a broader limitation of efficiency as a design value. Efficiency optimizes for speed and convenience. In the context of digital payments, this value tends to neglect the relational work that some exchanges *also* do: for certain transactions, the act of giving is itself the point. In other words, systems that treat it as a problem to be made efficient are solving the wrong problem. 
-
-## 2. Digital inclusion frameworks need to account for recovery, not just access and competence. 
-
-Current approaches to the harms from digital payments in Singapore have been largely preventive in orientation. From ScamShield to police hotlines and advertisements warning residents about the changing nature of scams, such practices remain focused on upstream interventions: to stop scams before they occur. Yet the prevalence of scams in the city suggests that prevention is not sufficient: in 2025, there were over 37,000 reported cases and over SGD 900 million lost (about $700 million).[^2]
+## 2. Invest in recovery as well as prevention. 
+Singapore’s response to scams has been largely preventive, from ScamShild to police hotlines to public awareness campaigns. Yet the prevalence of scams in the city suggests that prevention is not sufficient: in 2025, there were over 37,000 reported cases and over SGD 900 million lost (about $700 million).[^2] This study reveals a gap in what happens after a scam occurs. For elderly residents especially, the harm of a scam is not just financial, but also comes with a loss of confidence, shame and even a withdrawal from digital payments altogether. These costs are currently absorbed privately by individuals and their families. 
 
 [^2]: Straits Times [2026](https://www.straitstimes.com/singapore/scam-tracker-what-are-the-trends-in-singapore-and-how-much-money-has-been-lost-in-2026)
 
-What is comparatively underdeveloped is an infrastructure for recovery. More than just financial restitution (which remains difficult to secure in many cases), the study points to a subtler and more persistent form of harm: the loss of confidence, shame, and sometimes, the withdrawal from digital and urban participation. For elderly users in particular, a single scam encounter can undo years of careful digital adoption, implicating not just the individual but also their household, as family members navigate the emotional and practical consequences together.
-
-What this study suggests is that the infrastructure around digital payments has a gap: not in harm prevention, but in what happens after harm (and financial loss) occurs. The emotional and social costs of scam encounters are currently treated as private problems, absorbed by individuals and their families, rather than systemic ones. 
-
-What might fill this gap? This could include cleaner and more compassionate institutional responses at the point of harm, peer support structures, community-level digital literacy (and confidence) programs, and follow-up touchpoints that treat scam victims as people in need of re-engagement. The goal is not just to stop people from being scammed, but to ensure that when scams do occur, they do not foreclose digital participation in a city that increasingly relies on it.
+Instead, financial institutions and agencies that handle scam cases could treat recovery as part of their responsibility. This could mean creating compassionate response protocols for frontline staff, such as training bank and police staff members to give victims a clear point of contact and next steps in a way that respects their emotional experience. Institutions could also conduct follow-up check-ins with victims and their families so that families are not left to carry the emotional and practical fallout alone. Finally, digital inclusion metrics could track whether users continue using digital financial services and how their confidence changes. Such measures would help show how digital inclusion and exclusion shift in the wake of harmful incidents like scams, and inform policy and community outreach programs that help victims rebuild their confidence. 
 
 # Reflections
 I really enjoyed reflecting on the relationship between what Ned Rossiter calls “logistical media”—the infrastructure and labor that sustains the movement of people and commodities across space—and digital payments. It is not at all a far leap to read a microcosm of logistical media embedded in the city by looking at the relationship between e-payments and urban mobility/participation.[^3] Put simply, can we think of the adoption of NFC-enabled payment systems and QR-code payment infrastructures as part of a system that structures our participation in the city? How do these technologies shape our experience of the urban and our place within it? How does that change our experience with *time*? Thinking on these terms helped me recognize the different registers of inclusion and exclusion arising from digital payment use. 
